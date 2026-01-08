@@ -1,6 +1,4 @@
-body { margin: 0; font-family: Arial, sans-serif; background: #f3f4f6; }
-    header { background: #1e40af; color: #fff; padding: 30px; text-align: center; background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
-    header h1 { margin: 0; background: rgba(0,0,0,0.6); display: inline-block; padding: 10px 20px; border-radius: 10px; }
+header h1 { margin: 0; background: rgba(0,0,0,0.6); display: inline-block; padding: 10px 20px; border-radius: 10px; }
     header p { background: rgba(0,0,0,0.6); display: inline-block; padding: 5px 15px; border-radius: 10px; }
     nav { background: #1e3a8a; padding: 10px; text-align: center; }
     nav a { color: #fff; margin: 0 12px; text-decoration: none; font-weight: bold; }
