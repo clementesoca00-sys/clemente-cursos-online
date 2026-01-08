@@ -1,1 +1,159 @@
-# clemente-cursos-online
+[index.html.html](https://github.com/user-attachments/files/24499831/index.html.html)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clemente Cursos Online</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f3f4f6; }
+    header { background: #1e40af; color: #fff; padding: 30px; text-align: center; background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
+    header h1 { margin: 0; background: rgba(0,0,0,0.6); display: inline-block; padding: 10px 20px; border-radius: 10px; }
+    header p { background: rgba(0,0,0,0.6); display: inline-block; padding: 5px 15px; border-radius: 10px; }
+    nav { background: #1e3a8a; padding: 10px; text-align: center; }
+    nav a { color: #fff; margin: 0 12px; text-decoration: none; font-weight: bold; }
+    .container { padding: 30px; }
+    h2 { text-align: center; margin-bottom: 20px; }
+    .courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .course { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .course h3 { margin-top: 0; }
+    .course p { font-size: 14px; color: #374151; }
+    .price { font-size: 18px; color: #16a34a; font-weight: bold; }
+    .btn { display: inline-block; margin-top: 12px; padding: 10px 15px; background: #22c55e; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; }
+    .btn-facebook { background: #1877f2; margin-left: 5px; }
+    .btn-instagram { background: #e1306c; margin-left: 5px; }
+    .benefits { background: #fff; margin-top: 40px; padding: 30px; border-radius: 10px; }
+    #about { background: #fff; padding: 30px; border-radius: 10px; margin-top: 40px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    footer { background: #1e40af; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clemente Cursos Online</h1>
+    <p>Aprenda novas habilidades e mude seu futuro</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Cursos</a>
+    <a href="#about">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <div class="container">
+    <h2>Cursos Disponíveis</h2>
+    <div class="courses">
+
+      <!-- Curso 1 -->
+      <div class="course">
+        <h3>Informática Básica</h3>
+        <p>Aprenda computador, internet, Word, Excel e muito mais do zero.</p>
+        <p class="price">MZN 1000</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 2 -->
+      <div class="course">
+        <h3>Informática Avançada</h3>
+        <p>Aprofunde conhecimentos em softwares, redes e soluções avançadas.</p>
+        <p class="price">MZN 1500</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 3 -->
+      <div class="course">
+        <h3>Marketing Digital</h3>
+        <p>Aprenda a vender online usando redes sociais e anúncios.</p>
+        <p class="price">MZN 2000</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 4 -->
+      <div class="course">
+        <h3>Criação de Sites</h3>
+        <p>Aprenda HTML e CSS e crie seus próprios sites.</p>
+        <p class="price">MZN 1500</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 5 -->
+      <div class="course">
+        <h3>Empreendedorismo</h3>
+        <p>Aprenda a montar e gerenciar seu próprio negócio.</p>
+        <p class="price">MZN 1000</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 6 -->
+      <div class="course">
+        <h3>Design Gráfico</h3>
+        <p>Aprenda a criar artes, logos, banners e materiais visuais profissionais.</p>
+        <p class="price">MZN 1500</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 7 -->
+      <div class="course">
+        <h3>Programação</h3>
+        <p>Aprenda lógica de programação e crie seus próprios softwares e apps.</p>
+        <p class="price">MZN 2000</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 8 -->
+      <div class="course">
+        <h3>Programação em Python</h3>
+        <p>Aprenda Python, uma das linguagens mais usadas no mundo, para automação, web e análise de dados.</p>
+        <p class="price">MZN 1500</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+      <!-- Curso 9 -->
+      <div class="course">
+        <h3>Programação Básica</h3>
+        <p>Introdução à programação, ideal para quem está começando.</p>
+        <p class="price">MZN 1000</p>
+        <a class="btn" href="mailto:clementesoca00@gmail.com" target="_blank">Matricular por Gmail</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Matricular pelo Facebook</a>
+        <a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Falar no Instagram</a>
+      </div>
+
+    </div>
+
+    <div id="about">
+      <h2>Sobre Nós</h2>
+      <p>O Clemente Cursos Online oferece cursos de alta qualidade para todos os níveis, com foco em prática e aprendizado real. Nossa missão é capacitar pessoas através do ensino acessível e de ferramentas modernas, permitindo que você desenvolva habilidades para sua carreira ou negócio.</p>
+    </div>
+
+    <div class="benefits">
+      <h2>Por que estudar conosco?</h2>
+      <ul>
+        <li>✔ Certificado de conclusão</li>
+        <li>✔ Acesso pelo celular ou computador</li>
+        <li>✔ Suporte via Gmail, Facebook e Instagram</li>
+        <li>✔ Conteúdo fácil e direto</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Clemente Cursos Online | Ensino simples e acessível</p>
+  </footer>
+</body>
+</html>
