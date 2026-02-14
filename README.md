@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
@@ -99,7 +100,7 @@ h2 { text-align: center; margin-bottom: 20px; }
 
 .contact-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
@@ -115,9 +116,13 @@ h2 { text-align: center; margin-bottom: 20px; }
 
 .contact-box:hover { transform: translateY(-5px); }
 
-.contact-box img { width: 40px; margin-bottom: 10px; }
+.contact-box img {
+  width: 50px;
+}
 
 .contact-box a {
+  display: block;
+  margin-top: 8px;
   text-decoration: none;
   font-weight: bold;
   color: #1e40af;
@@ -131,7 +136,6 @@ footer {
   margin-top: 40px;
 }
 
-/* Botão flutuante */
 .whatsapp-float {
   position: fixed;
   width: 60px;
@@ -192,7 +196,93 @@ footer {
 <a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Informática%20Avançada" target="_blank">WhatsApp</a>
 </div>
 
-<!-- Se houver mais cursos, basta duplicar e atualizar o nome do curso no link WhatsApp -->
+<!-- Curso 3 -->
+<div class="course">
+<h3>Design Gráfico</h3>
+<p>Aprenda Photoshop, Illustrator, edição de imagens e criação de artes digitais.</p>
+<p class="price">MZN 2000</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Design%20Gráfico" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 4 -->
+<div class="course">
+<h3>Marketing Digital</h3>
+<p>Aprenda estratégias de marketing online, redes sociais, anúncios e SEO.</p>
+<p class="price">MZN 1800</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Marketing%20Digital" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 5 -->
+<div class="course">
+<h3>Redes de Computadores</h3>
+<p>Aprenda configuração de redes, roteadores, switches e segurança de rede.</p>
+<p class="price">MZN 2200</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Redes%20de%20Computadores" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 6 -->
+<div class="course">
+<h3>Programação Web</h3>
+<p>HTML, CSS, JavaScript, criação de sites responsivos e interativos.</p>
+<p class="price">MZN 2000</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Programação%20Web" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 7 -->
+<div class="course">
+<h3>Excel Avançado</h3>
+<p>Funções avançadas, tabelas dinâmicas e automação de planilhas.</p>
+<p class="price">MZN 1800</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Excel%20Avançado" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 8 -->
+<div class="course">
+<h3>Python para Iniciantes</h3>
+<p>Aprenda lógica de programação, estruturas de dados e scripts simples em Python.</p>
+<p class="price">MZN 2000</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Python%20para%20Iniciantes" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 9 -->
+<div class="course">
+<h3>Java Avançado</h3>
+<p>Programação orientada a objetos, APIs e desenvolvimento de aplicações complexas.</p>
+<p class="price">MZN 2500</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Java%20Avançado" target="_blank">WhatsApp</a>
+</div>
+
+<!-- Curso 10 -->
+<div class="course">
+<h3>Segurança Cibernética</h3>
+<p>Aprenda proteção de dados, antivírus, firewalls e técnicas de segurança online.</p>
+<p class="price">MZN 2300</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com">Matricular por Gmail</a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank">Facebook</a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank">Instagram</a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Olá,%20quero%20me%20matricular%20no%20curso%20de%20Segurança%20Cibernética" target="_blank">WhatsApp</a>
+</div>
 
 </div>
 
@@ -206,27 +296,27 @@ footer {
 <div class="contact-container">
 
 <div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
-<p>Email</p>
-<a href="mailto:clementesoca00@gmail.com">clementesoca00@gmail.com</a>
+<a href="mailto:clementesoca00@gmail.com">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+</a>
 </div>
 
 <div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
-<p>WhatsApp</p>
-<a href="https://wa.me/258833786021" target="_blank">Falar no WhatsApp</a>
+<a href="https://wa.me/258833786021" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
 </div>
 
 <div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
-<p>Facebook</p>
-<a href="https://www.facebook.com/messages/t/socaclemente" target="_blank">socaclemente</a>
+<a href="https://www.facebook.com/messages/t/socaclemente" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+</a>
 </div>
 
 <div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
-<p>Instagram</p>
-<a href="https://instagram.com/socaclemente" target="_blank">@socaclemente</a>
+<a href="https://instagram.com/socaclemente" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+</a>
 </div>
 
 </div>
@@ -240,7 +330,7 @@ footer {
 
 <a href="https://wa.me/258833786021?text=Olá,%20quero%20saber%20mais%20sobre%20os%20cursos" 
 class="whatsapp-float" target="_blank">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
 </a>
 
 </body>
