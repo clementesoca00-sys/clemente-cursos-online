@@ -1,9 +1,8 @@
-[index.html.html](https://github.com/user-attachments/files/24500271/index.html.html)
+(https://github.com/user-attachments/files/24500271/index.html.html)
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clemente Cursos Online</title>
   <style>
     body { margin: 0; font-family: Arial, sans-serif; background: #f3f4f6; }
     header { background: #1e40af; color: #fff; padding: 30px; text-align: center; background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
