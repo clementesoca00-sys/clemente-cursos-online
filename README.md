@@ -154,5 +154,3 @@
     <p>© 2026 Clemente Cursos Online | Ensino simples e acessível</p>
   </footer>
 </body>
-</html>
-ading index.html.html…]()
