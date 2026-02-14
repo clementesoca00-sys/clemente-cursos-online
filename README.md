@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Clemente Cursos Online</title>
 
 <style>
 body { margin: 0; font-family: Arial, sans-serif; background: #f3f4f6; }
@@ -12,7 +13,7 @@ header {
   color: #fff;
   padding: 40px;
   text-align: center;
-  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80');
+  background-image: url('https://images.pexels.com/photos/3184427/pexels-photo-3184427.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -29,18 +30,15 @@ nav {
   padding: 12px;
   text-align: center;
 }
-
 nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover { text-decoration: underline; }
 
 .container { padding: 30px; }
-
 h2 { text-align: center; margin-bottom: 20px; }
 
 .courses {
@@ -54,37 +52,34 @@ h2 { text-align: center; margin-bottom: 20px; }
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  text-align: center;
 }
-
-.course:hover { transform: translateY(-5px); }
-
-.course img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
-
+.course img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 .course p { font-size: 14px; color: #374151; }
-
-.price { font-size: 18px; color: #16a34a; font-weight: bold; }
+.price { font-size: 18px; color: #16a34a; font-weight: bold; margin-bottom: 10px; }
 
 .btn {
   display: inline-block;
   margin: 5px 5px 0 0;
-  padding: 8px;
-  background: #22c55e;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   text-align: center;
+  line-height: 40px;
   transition: 0.3s;
 }
-
-.btn img { width: 20px; vertical-align: middle; }
-
-.btn:hover { opacity: 0.8; }
+.btn img { width: 20px; }
 
 .btn-facebook { background: #1877f2; }
 .btn-instagram { background: #e1306c; }
 .btn-whatsapp { background: #25d366; }
+.btn:hover { opacity: 0.8; }
 
 #about {
   background: #fff;
@@ -94,38 +89,21 @@ h2 { text-align: center; margin-bottom: 20px; }
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.benefits {
-  background: #fff;
-  margin-top: 40px;
-  padding: 30px;
-  border-radius: 10px;
-}
-
 .contact-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
-
 .contact-box {
   background: #f9fafb;
   padding: 20px;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: 0.3s;
 }
-
-.contact-box:hover { transform: translateY(-5px); }
-
-.contact-box img { width: 40px; margin-bottom: 10px; }
-
-.contact-box a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #1e40af;
-}
+.contact-box img { width: 50px; }
+.contact-box a { display: block; margin-top: 8px; text-decoration: none; }
 
 footer {
   background: #1e40af;
@@ -135,7 +113,6 @@ footer {
   margin-top: 40px;
 }
 
-/* Botão flutuante */
 .whatsapp-float {
   position: fixed;
   width: 60px;
@@ -150,7 +127,6 @@ footer {
   box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   z-index: 100;
 }
-.whatsapp-float img { width: 35px; }
 </style>
 </head>
 
@@ -171,71 +147,181 @@ footer {
 <div class="container">
 
 <h2 id="courses">Cursos Disponíveis</h2>
-
 <div class="courses">
-
-<!-- CURSOS 1 a 20 -->
-<!-- Copie os cursos completos dos blocos anteriores aqui -->
-<!-- Para economizar espaço, aqui colocamos apenas um exemplo. No seu HTML final, cole todos os 20 cursos que eu te passei nos passos anteriores -->
 
 <!-- CURSO 1 -->
 <div class="course">
-<img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg" alt="Informática Básica">
+<img src="https://images.pexels.com/photos/3184427/pexels-photo-3184427.jpeg" alt="Informática Básica">
 <h3>Informática Básica</h3>
-<p>Aprenda computador, internet, Word e Excel do zero.</p>
+<p>Computador, internet, Word e Excel do zero.</p>
 <p class="price">MZN 1000</p>
-<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt=""></a>
-<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt=""></a>
-<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt=""></a>
-<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Informática%20Básica" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt=""></a>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Informática%20Básica" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-<!-- Insira aqui os cursos 2 a 20 seguindo o mesmo padrão -->
-
-</div> <!-- /courses -->
-
-<div id="about">
-<h2>Sobre Nós</h2>
-<p>O Clemente Cursos Online oferece cursos de alta qualidade para todos os níveis, com foco em prática e aprendizado real. Nossa missão é capacitar pessoas através do ensino acessível e de ferramentas modernas, permitindo que você desenvolva habilidades para sua carreira ou negócio.</p>
+<!-- CURSO 2 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/414519/pexels-photo-414519.jpeg" alt="Informática Avançada">
+<h3>Informática Avançada</h3>
+<p>Softwares, redes e soluções avançadas.</p>
+<p class="price">MZN 1500</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Informática%20Avançada" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-<div id="contact" class="benefits">
-<h2>Contactos</h2>
-<div class="contact-container">
-
-<div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-<a href="mailto:clementesoca00@gmail.com">clementesoca00@gmail.com</a>
+<!-- CURSO 3 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Design Gráfico">
+<h3>Design Gráfico</h3>
+<p>Photoshop, Illustrator e criação de artes visuais.</p>
+<p class="price">MZN 2000</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Design%20Gráfico" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-<div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-<a href="https://wa.me/258833786021" target="_blank">Falar no WhatsApp</a>
+<!-- CURSO 4 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg" alt="Marketing Digital">
+<h3>Marketing Digital</h3>
+<p>Estratégias online, redes sociais e anúncios.</p>
+<p class="price">MZN 1800</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Marketing%20Digital" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-<div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-<a href="https://www.facebook.com/messages/t/socaclemente" target="_blank">socaclemente</a>
+<!-- CURSO 5 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg" alt="Fotografia Digital">
+<h3>Fotografia Digital</h3>
+<p>Aperfeiçoe suas fotos com técnicas profissionais.</p>
+<p class="price">MZN 1700</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Fotografia%20Digital" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
+<!-- CURSO 6 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Programação Web">
+<h3>Programação Web</h3>
+<p>HTML, CSS, JavaScript e frameworks modernos.</p>
+<p class="price">MZN 2200</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Programação%20Web" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-<div class="contact-box">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
-<a href="https://instagram.com/socaclemente" target="_blank">@socaclemente</a>
+<!-- CURSO 7 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Excel Avançado">
+<h3>Excel Avançado</h3>
+<p>Fórmulas, gráficos e dashboards profissionais.</p>
+<p class="price">MZN 1300</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Excel%20Avançado" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
+<!-- CURSO 8 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861975/pexels-photo-3861975.jpeg" alt="Programação Python">
+<h3>Programação Python</h3>
+<p>Aprenda Python do básico ao avançado.</p>
+<p class="price">MZN 2100</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Programação%20Python" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
+
+<!-- CURSO 9 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3184631/pexels-photo-3184631.jpeg" alt="Redes de Computadores">
+<h3>Redes de Computadores</h3>
+<p>Configuração de redes, segurança e protocolos.</p>
+<p class="price">MZN 1900</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Redes%20de%20Computadores" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
 </div>
 
-</div> <!-- /container -->
+<!-- CURSO 10 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861966/pexels-photo-3861966.jpeg" alt="JavaScript Avançado">
+<h3>JavaScript Avançado</h3>
+<p>Manipulação de DOM, eventos e APIs.</p>
+<p class="price">MZN 2300</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20JavaScript%20Avançado" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div><!-- CURSO 6 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Programação Web">
+<h3>Programação Web</h3>
+<p>HTML, CSS, JavaScript e frameworks modernos.</p>
+<p class="price">MZN 2200</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Programação%20Web" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
 
-<footer>
-© 2026 Clemente Cursos Online | Ensino simples e acessível
-</footer>
+<!-- CURSO 7 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Excel Avançado">
+<h3>Excel Avançado</h3>
+<p>Fórmulas, gráficos e dashboards profissionais.</p>
+<p class="price">MZN 1300</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Excel%20Avançado" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
 
-<a href="https://wa.me/258833786021?text=Olá,%20quero%20saber%20mais%20sobre%20os%20cursos" 
-class="whatsapp-float" target="_blank">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-</a>
+<!-- CURSO 8 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861975/pexels-photo-3861975.jpeg" alt="Programação Python">
+<h3>Programação Python</h3>
+<p>Aprenda Python do básico ao avançado.</p>
+<p class="price">MZN 2100</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Programação%20Python" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
 
-</body>
-</html>
+<!-- CURSO 9 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3184631/pexels-photo-3184631.jpeg" alt="Redes de Computadores">
+<h3>Redes de Computadores</h3>
+<p>Configuração de redes, segurança e protocolos.</p>
+<p class="price">MZN 1900</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20Redes%20de%20Computadores" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
+
+<!-- CURSO 10 -->
+<div class="course">
+<img src="https://images.pexels.com/photos/3861966/pexels-photo-3861966.jpeg" alt="JavaScript Avançado">
+<h3>JavaScript Avançado</h3>
+<p>Manipulação de DOM, eventos e APIs.</p>
+<p class="price">MZN 2300</p>
+<a class="btn" href="mailto:clementesoca00@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+<a class="btn btn-facebook" href="https://www.facebook.com/messages/t/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
+<a class="btn btn-instagram" href="https://instagram.com/socaclemente" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
+<a class="btn btn-whatsapp" href="https://wa.me/258833786021?text=Quero%20me%20matricular%20no%20curso%20de%20JavaScript%20Avançado" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"></a>
+</div>
